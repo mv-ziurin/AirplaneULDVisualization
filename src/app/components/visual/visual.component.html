@@ -1,0 +1,24 @@
+<form>
+    <canvas #canvas3D id="canvas3D" (mousedown)="saveMouseCoords($event)" (mouseup)="releaseMouse($event)"
+                                    (mousemove)="moveCamera($event)" (mousewheel)="zoom($event)" 
+                                    (resize)="onWindowResize($event)">
+    </canvas>
+    <mat-card class="modelLoadCard">
+      <mat-card-header>
+        <mat-card-title>Загрузка расстановки</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <mat-select placeholder="Расстановка" [(ngModel)]="selectedPlacement" name="objectPlacements">
+          <mat-option *ngFor="let obj of objectPlacements" [value]="obj.value">
+            {{obj.viewValue}}
+          </mat-option>
+        </mat-select>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button class="button" color="primary" (click)="loadSceneObjects($event)">Загрузить расстановку</button>
+        <button mat-raised-button class="button" color="secondary" (click)="toggleHull($event)">Скрыть/отобразить корпус</button>
+      </mat-card-actions>
+    </mat-card>
+</form>
+
+

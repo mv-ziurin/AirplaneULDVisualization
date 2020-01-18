@@ -1,0 +1,7 @@
+0.000000 0.000000 0.000000 1 http://localhost:4200/assets/hull.obj http://localhost:4200/assets/HullColour.png
+0.000000 0.000000 1.001000 0 http://localhost:4200/assets/TwoSidedULD.obj http://localhost:4200/assets/TwoSidedUldColour.png
+0.000000 2.000000 1.001000 0 http://localhost:4200/assets/TwoSidedULD.obj http://localhost:4200/assets/TwoSidedUldColour.png
+3.000000 2.000000 1.010000 0 http://localhost:4200/assets/RightSidedSmoothULD.obj http://localhost:4200/assets/RightSidedSmoothUldColour.png
+-3.000000 2.000000 1.010000 0 http://localhost:4200/assets/LeftSidedSmoothULD.obj http://localhost:4200/assets/LeftSidedSmoothUldColour.png
+3.000000 0.000000 1.010000 0 http://localhost:4200/assets/RightSidedSmoothULD.obj http://localhost:4200/assets/RightSidedSmoothUldColour.png
+-3.000000 0.000000 1.010000 0 http://localhost:4200/assets/LeftSidedSmoothULD.obj http://localhost:4200/assets/LeftSidedSmoothUldColour.png

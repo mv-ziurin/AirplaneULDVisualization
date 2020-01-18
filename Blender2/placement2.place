@@ -1,0 +1,7 @@
+0.000000 0.000000 0.000000 1 http://localhost:4200/assets/TwoSidedULD.obj http://localhost:4200/assets/TwoSidedULDColour.png
+0.000000 0.000000 1.001000 0 http://localhost:4200/assets/suitcase.obj http://localhost:4200/assets/SuitCaseColour.png
+0.000000 2.000000 1.001000 0 http://localhost:4200/assets/suitcase.obj http://localhost:4200/assets/SuitCaseColour.png
+3.000000 2.000000 1.010000 0 http://localhost:4200/assets/briefcase.obj http://localhost:4200/assets/BriefCaseColour.png
+-3.000000 2.000000 1.010000 0 http://localhost:4200/assets/briefcase.obj http://localhost:4200/assets/BriefCaseColour.png
+3.000000 0.000000 1.010000 0 http://localhost:4200/assets/briefcase.obj http://localhost:4200/assets/BriefCaseColour.png
+-3.000000 0.000000 1.010000 0 http://localhost:4200/assets/briefcase.obj http://localhost:4200/assets/BriefCaseColour.png
